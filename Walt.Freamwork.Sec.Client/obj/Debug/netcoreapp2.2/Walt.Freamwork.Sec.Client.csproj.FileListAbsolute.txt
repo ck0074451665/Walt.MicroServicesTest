@@ -1,0 +1,11 @@
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\bin\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.deps.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\bin\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.runtimeconfig.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\bin\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.runtimeconfig.dev.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\bin\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.dll
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\obj\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.csproj.CoreCompileInputs.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\obj\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.AssemblyInfoInputs.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\obj\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.AssemblyInfo.cs
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\bin\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.pdb
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\obj\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.dll
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\obj\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.pdb
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.Freamwork.Sec.Client\obj\Debug\netcoreapp2.2\Walt.Freamwork.Sec.Client.csprojAssemblyReference.cache

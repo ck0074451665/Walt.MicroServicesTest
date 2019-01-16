@@ -1,0 +1,10 @@
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\obj\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.csproj.CoreCompileInputs.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\obj\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.AssemblyInfoInputs.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\obj\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.AssemblyInfo.cs
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\bin\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.deps.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\bin\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.runtimeconfig.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\bin\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.runtimeconfig.dev.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\bin\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.dll
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\bin\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.pdb
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\obj\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.dll
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroservices.OrderService\obj\Debug\netcoreapp2.2\Walt.TestMcroservices.OrderService.pdb

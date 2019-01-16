@@ -1,0 +1,16 @@
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\bin\Debug\netcoreapp2.2\appsettings.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\bin\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.deps.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\bin\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.runtimeconfig.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\bin\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.runtimeconfig.dev.json
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\bin\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.dll
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\bin\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.pdb
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.csprojAssemblyReference.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.csproj.CoreCompileInputs.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.RazorAssemblyInfo.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.RazorAssemblyInfo.cs
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.AssemblyInfoInputs.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.AssemblyInfo.cs
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.RazorTargetAssemblyInfo.cache
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.dll
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\obj\Debug\netcoreapp2.2\Walt.TestMcroServices.Webapi.pdb
+G:\project\aspnetcore\aspnetcoretest\Walt.TestMcroServoces\Walt.TestMcroServices.Webapi\bin\Debug\netcoreapp2.2\appsettings.Development.json
