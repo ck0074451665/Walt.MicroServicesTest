@@ -1,20 +1,19 @@
 {
 	"folders": [
 		{
+			"path": "publish"
+		},
+		{
 			"path": "Walt.Freamwork.Sec"
 		},
 		{
 			"path": "Walt.Freamwork.Sec.Client"
 		},
 		{
-			"path": "publish"
+			"path": "Walt.TestMicroservices.OrderService"
 		},
 		{
-			"path": "Walt.TestMcroServices.Webapi"
-		},
-		{
-			"path": "Walt.TestMcroservices.OrderService"
+			"path": "Walt.TestMicroServices.Task"
 		}
 	]
-	"omnisharp.projectLoadTimeout": 1200
 }
