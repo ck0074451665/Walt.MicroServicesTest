@@ -4670,7 +4670,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Walt.Framework.Quartz/1.0.1": {
+      "Walt.Framework.Quartz/1.0.3": {
         "type": "package",
         "compile": {
           "lib/netcoreapp2.2/Walt.Framework.Quartz.dll": {}
@@ -12793,14 +12793,14 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Walt.Framework.Quartz/1.0.1": {
-      "sha512": "/clzyUBFLPcFW5Lb0J70Pe4IWqQaRJEEfb0TgLhMU7mUOxSkHB+Mh4tjpDIJb2IVFCHjNiYnHB8v+5XApOZgfg==",
+    "Walt.Framework.Quartz/1.0.3": {
+      "sha512": "QVzKwKDV0jeNuYzStV2mblAW6jOYyUo6C0N3wvbeNGUujbKenNxzPMDx1QxT8F0sjjOuifshPyUCXYRCp2oLXw==",
       "type": "package",
-      "path": "walt.framework.quartz/1.0.1",
+      "path": "walt.framework.quartz/1.0.3",
       "files": [
         ".nupkg.metadata",
         "lib/netcoreapp2.2/Walt.Framework.Quartz.dll",
-        "walt.framework.quartz.1.0.1.nupkg.sha512",
+        "walt.framework.quartz.1.0.3.nupkg.sha512",
         "walt.framework.quartz.nuspec"
       ]
     }
@@ -12811,7 +12811,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Quartz.Jobs >= 3.0.7",
-      "Walt.Framework.Quartz >= 1.0.1"
+      "Walt.Framework.Quartz >= 1.0.3"
     ]
   },
   "packageFolders": {
@@ -12879,7 +12879,7 @@
           },
           "Walt.Framework.Quartz": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.3, )"
           }
         },
         "imports": [

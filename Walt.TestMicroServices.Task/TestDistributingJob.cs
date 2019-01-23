@@ -8,23 +8,29 @@ namespace Walt.TestMicroServices.Task
 
     [Quartz.PersistJobDataAfterExecution]
     [Quartz.DisallowConcurrentExecution]
-    [DistributingAttributes(0)]
+    [DistributingAttributes()]
     public class TestDistributingJob : Quartz.IJob
     {
         public  virtual async  System.Threading.Tasks.Task Execute(Quartz.IJobExecutionContext context)
         {
+            if(context.CancellationToken.IsCancellationRequested)
+            {
+                Console.WriteLine("取消执行。");
+                return ;
+            }
             try
             {
-            //int currentIndex=context.JobDetail.JobDataMap.GetInt("currentIndex");
-            Console.WriteLine(@"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                DistributingData disriObj = 
+                context.JobDetail.JobDataMap.Get("distriData") as DistributingData;
+                
+                Console.WriteLine(@"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
-            System.Threading.Thread.Sleep(5000);
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"+disriObj.DistributeFlag+disriObj.PageIndex.ToString());
             }
             catch(Exception ep)
             {
                 Quartz.JobExecutionException jobep=new Quartz.JobExecutionException();
-                jobep.RefireImmediately=false;
+                //jobep.RefireImmediately=false;
                 throw jobep;
             }
         }
