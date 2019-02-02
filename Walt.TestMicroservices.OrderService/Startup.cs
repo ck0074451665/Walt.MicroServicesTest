@@ -4,14 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Walt.Framework.Service;
-using Walt.Framework.Configuration;
-using Walt.Framework.Service.Kafka;
 using Steeltoe.Discovery.Client;
-using System;
-using Steeltoe.Common.Http.Discovery;
+using Swashbuckle.AspNetCore.Swagger;
 
-namespace Walt.TestMicroServoces.Webapi
+
+namespace Walt.TestMicroservices.OrderService
 {
     public class Startup
     {
@@ -33,50 +30,34 @@ namespace Walt.TestMicroServoces.Webapi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IKafkaService, KafkaService>();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddAuthorization();
-            services.AddAuthentication("Bearer")
-          .AddIdentityServerAuthentication(options =>
-          {
-              options.Authority = "http://localhost:64433";
-              options.RequireHttpsMetadata = false;
-
-              options.ApiName = "api1";
-          });
-
-            services.AddKafka(KafkaBuilder =>
-            {
-                var kafkaConfig = Configuration.GetSection("KafkaService");
-                KafkaBuilder.AddConfiguration(kafkaConfig);
-            });
-
-            //services.AddSingleton<IOrderService, OrderService>();
+            services.AddMvc(mvcOptions=>{
+                
+            }).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+        //     services.AddAuthorization();
+        //     services.AddAuthentication("Bearer")
+        //   .AddIdentityServerAuthentication(options =>
+        //   {
+        //       options.Authority = "http://localhost:64433";
+        //       options.RequireHttpsMetadata = false;
+        //       options.ApiName = "api1";
+        //   });
             // Add Steeltoe Discovery Client service
             services.AddDiscoveryClient(Configuration);
-
-            // Add Steeltoe handler to container
-            services.AddTransient<DiscoveryHttpMessageHandler>();
-
-            // Configure a HttpClient
-            services.AddHttpClient<OrderService>(c =>
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen(c =>
             {
-                c.BaseAddress = new Uri("http://orderservice");
-            })
-             .AddHttpMessageHandler<DiscoveryHttpMessageHandler>()
-             .AddTypedClient<IOrderService, OrderService>();
-
+                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+            });
             var log = LoggerFac.CreateLogger<Startup>();
             log.LogDebug("服务配置完成");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        { 
-            
-            var log= LoggerFac.CreateLogger<Startup>();
+        {
+
+            var log = LoggerFac.CreateLogger<Startup>();
             log.LogInformation("infomation");
-           
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -85,10 +66,21 @@ namespace Walt.TestMicroServoces.Webapi
             {
                 app.UseHsts();
             }
-            app.UseMvc();
             app.UseDiscoveryClient();
-            app.UseAuthentication();  
-           
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+           {
+               c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+               c.RoutePrefix = string.Empty;
+           });
+            app.UseMvc(routes => {
+                        routes.MapRoute(
+                            name: "default",
+                            template: "api/{controller=Home}/{action=Index}/{id?}");
+                    });
+
+
+            app.UseAuthentication();
             log.LogDebug("通道配置完毕");
         }
     }

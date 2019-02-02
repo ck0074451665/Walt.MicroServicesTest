@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Walt.Freamwork.Sec
+namespace Walt.TestMicroServoces.Webapi
 {
     [Route("api/[controller]")]
     [ApiController]

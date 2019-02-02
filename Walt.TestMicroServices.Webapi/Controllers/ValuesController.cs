@@ -8,7 +8,7 @@ using org.apache.zookeeper.data;
 using Walt.Framework.Service.Kafka;
 using Walt.Framework.Service.Zookeeper;
 
-namespace Walt.TestMcroServoces.Webapi.Controllers
+namespace Walt.TestMicroServoces.Webapi
 {
     [Route("api/[controller]")]
     [ApiController]

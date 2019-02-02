@@ -12,8 +12,9 @@ using Newtonsoft.Json;
 using Walt.Framework.Log;
 using Walt.Framework.Configuration;
 using Walt.Framework.Service;
+using Steeltoe.Discovery.Client;
 
-namespace Walt.TestMcroServoces.Webapi
+namespace Walt.TestMicroServoces.Webapi
 {
     public class Program
     { 
@@ -35,6 +36,7 @@ namespace Walt.TestMcroServoces.Webapi
                     configureServices.AddZookeeper(zooBuilder=>{
                         zooBuilder.AddConfiguration(context.Configuration.GetSection("zookeeperService"));
                     });
+                   
             })
             .ConfigureLogging((hostingContext, logging) => {
  

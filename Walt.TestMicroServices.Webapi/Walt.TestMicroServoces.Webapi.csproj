@@ -28,5 +28,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\sourcecode\Discovery\src\Steeltoe.Discovery.ClientCore\Steeltoe.Discovery.ClientCore.csproj" />
+  </ItemGroup>
 
 </Project>

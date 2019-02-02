@@ -16,7 +16,7 @@
 			"path": "Walt.TestMicroServices.Task"
 		},
 		{
-			"path": "Walt.TestMcroServices.Webapi"
+			"path": "Walt.TestMicroServices.Webapi"
 		}
 	]
 }
